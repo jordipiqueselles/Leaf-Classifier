@@ -1,0 +1,73 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1446184921" file="C:\Users\Jordi_Piqué\enginyeria informàtica\visio computador\projecte portfolio\GUI_project.prj" location="C:\Users\Jordi_Piqué\enginyeria informàtica\visio computador\projecte portfolio" name="GUI_project" target="target.mlapps" target-name="Package App">
+    <param.appname>GUI_project</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>Image Processing Toolbox</item>
+      <item>Neural Network Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>17</item>
+      <item>12</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.5</item>
+      <item>9.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>C:\Users\Jordi_Piqué\enginyeria informàtica\visio computador\projecte portfolio</param.output>
+    <param.guid>3a82ca5b-b4ce-49f0-8746-04dfb9a9002d</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\GUI_project.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\square.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Jordi_Piqué\enginyeria informàtica\visio computador" name="projecte portfolio" optional="false">C:\Users\Jordi_Piqué\enginyeria informàtica\visio computador\projecte portfolio</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2016b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
